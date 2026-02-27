@@ -1,0 +1,35 @@
+# SK Mobile Zone Project Tasks
+
+- [ ] **1. Planning phase**
+  - [/] Draft requirements (implementation_plan.md)
+  - [ ] Receive user approval
+
+- [ ] **2. Project Initialization**
+  - [ ] Create Next.js project
+  - [ ] Set up global Vanilla CSS tokens (Black & Gold theme)
+  - [ ] Configure Prisma and SQLite database
+  - [ ] Seed initial brand categories
+
+- [ ] **3. Backend & Admin Interface**
+  - [ ] Implement user authentication and session management
+  - [ ] Build Admin Panel layout and styling
+  - [ ] Build Products and Categories management (CRUD)
+  - [ ] Build Orders management view
+
+- [ ] **4. Storefront Display**
+  - [ ] Build public Layout (Header, Navigation, Footer)
+  - [ ] Create Home Page (Banners, Featured Products, Best Prices)
+  - [ ] Implement Category and Product Detail pages
+
+- [ ] **5. Cart & Checkout System**
+  - [ ] Implement add/remove/update quantity logic
+  - [ ] Build Checkout form with Cash on Delivery integration
+  - [ ] Build Order tracking/confirmation pages
+
+- [ ] **6. User Accounts & Extras**
+  - [ ] Build Customer Dashboard (Order History, Profile)
+  - [ ] Build Contact Page (WhatsApp, form, Maps snippet)
+
+- [ ] **7. Polish & Verification**
+  - [ ] Final visual pass (animations, mobile responsiveness)
+  - [ ] E2E manual checkout tests
