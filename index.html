@@ -3,151 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SK Mobile Zone | Premium Mobile Phones in Pakistan</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Asad Marble - Premium Marble Designs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-    <!-- Header Section -->
-    <header class="header">
-        <div class="container header-container">
-            <div class="logo">
-                <a href="#">SK <span>Mobile Zone</span></a>
-            </div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#about">About We</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="header-actions">
-                <div class="cart-icon" id="cart-icon">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <span class="cart-count" id="cart-count">0</span>
-                </div>
-                <div class="menu-toggle" id="mobile-menu">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Asad <span>Marble</span></h1>
         </div>
-    </header>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Experience <span>Excellence</span> in Every Pixel.</h1>
-                <p class="hero-subtitle">Discover the latest and greatest mobile phones in Pakistan. Premium quality, unbeatable prices, and fast home delivery straight to your doorstep.</p>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="glass-card">
+                <h2>Elegance Carved in Stone</h2>
+                <p>Discover the finest collection of premium marble designs for your home and business.</p>
                 <div class="hero-buttons">
-                    <a href="#products" class="btn btn-primary">Shop Now</a>
-                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                    <a href="#gallery" class="btn btn-primary">View Designs</a>
+                    <a href="#contact" class="btn btn-outline">Contact Us</a>
                 </div>
-            </div>
-            <div class="hero-image">
-                <div class="phone-mockup">
-                    <div class="phone-screen"></div>
-                </div>
-                <div class="glow-effect"></div>
             </div>
         </div>
     </section>
 
-    <!-- Products Section -->
-    <section id="products" class="products">
+    <!-- About Section -->
+    <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">Trending <span>Mobiles</span></h2>
-            <div class="product-grid" id="product-grid">
-                <!-- Products dynamically injected via JS -->
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>About <span>Asad Marble</span></h2>
+                    <p>At Asad Marble, we bring you the highest quality natural stone and marble from around the world. With years of experience in the industry, our premium stones enhance the beauty of floors, walls, and countertops. We believe in providing luxury that lasts a lifetime.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check-circle"></i> Premium Quality Stone</li>
+                        <li><i class="fas fa-check-circle"></i> Expert Craftsmanship</li>
+                        <li><i class="fas fa-check-circle"></i> Best Market Prices</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Marble Interior">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-         <div class="container">
-             <div class="feature-grid">
-                 <div class="feature-card">
-                     <i class="fa-solid fa-truck-fast"></i>
-                     <h3>Fast Delivery</h3>
-                     <p>Express delivery across Pakistan, ensuring your phone reaches you safe and sound.</p>
-                 </div>
-                 <div class="feature-card">
-                     <i class="fa-solid fa-shield-halved"></i>
-                     <h3>Secure Payments</h3>
-                     <p>100% secure checkout process with multiple payment options including Cash on Delivery.</p>
-                 </div>
-                 <div class="feature-card">
-                     <i class="fa-solid fa-headset"></i>
-                     <h3>24/7 Support</h3>
-                     <p>Our dedicated support team is available round the clock to assist you.</p>
-                 </div>
-                 <div class="feature-card">
-                     <i class="fa-solid fa-medal"></i>
-                     <h3>Authentic Products</h3>
-                     <p>We guarantee 100% original PTA approved phones with official warranties.</p>
-                 </div>
-             </div>
-         </div>
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Premium <span>Collection</span></h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1589403842188-75f1b1bca267?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="White Carrara">
+                    <div class="item-overlay">
+                        <h3>White Carrara</h3>
+                        <p>Perfect for countertops</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Black Marquina">
+                    <div class="item-overlay">
+                        <h3>Black Marquina</h3>
+                        <p>Luxury flooring</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1563214815-585a06553ffc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Gold Calacatta">
+                    <div class="item-overlay">
+                        <h3>Gold Calacatta</h3>
+                        <p>Elegant walls</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1618220179428-22790b46a0eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Green Onyx">
+                    <div class="item-overlay">
+                        <h3>Green Onyx</h3>
+                        <p>Backlit decor</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1600607688960-e095bdfeb545?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Beige Travertine">
+                    <div class="item-overlay">
+                        <h3>Beige Travertine</h3>
+                        <p>Exterior & Facade</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Grey Emperador">
+                    <div class="item-overlay">
+                        <h3>Grey Emperador</h3>
+                        <p>Modern Bathrooms</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in <span>Touch</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Have an inquiry? Contact us for best price estimations and premium marble orders.</p>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Marble Market, Main Road, City, Pakistan</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+92 300 1234567</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@asadmarble.com</span>
+                    </div>
+
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115814.73323041935!2d67.0182604!3d24.8872276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" width="100%" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject / Marble Type" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer id="contact" class="footer">
-        <div class="container footer-container">
-            <div class="footer-brand">
-                <h2>SK <span>Mobile Zone</span></h2>
-                <p>Your premium destination for buying the latest mobile phones in Pakistan.</p>
-                <div class="social-links">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                </div>
-            </div>
-            <div class="footer-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#products">Shop</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h3>Contact Us</h3>
-                <p><i class="fa-solid fa-location-dot"></i> 123 Main Street, Karachi, Pakistan</p>
-                <p><i class="fa-solid fa-phone"></i> +92 300 0000000</p>
-                <p><i class="fa-solid fa-envelope"></i> info@skmobilezone.com.pk</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 SK Mobile Zone. All Rights Reserved.</p>
-        </div>
+    <footer>
+        <p>&copy; 2026 Asad Marble. All Rights Reserved. Crafted with passion.</p>
     </footer>
 
-    <!-- Shopping Cart Sidebar -->
-    <div class="cart-sidebar" id="cart-sidebar">
-        <div class="cart-header">
-            <h2>Your Cart</h2>
-            <button class="close-cart" id="close-cart"><i class="fa-solid fa-xmark"></i></button>
-        </div>
-        <div class="cart-items" id="cart-items">
-            <!-- Cart items injected via JS -->
-            <div class="empty-cart-msg">Your cart is empty.</div>
-        </div>
-        <div class="cart-footer">
-            <div class="cart-total">
-                <span>Total:</span>
-                <span id="cart-total-price">Rs 0</span>
-            </div>
-            <button class="btn btn-primary checkout-btn" id="checkout-btn">Proceed to Checkout</button>
-        </div>
-    </div>
-    <div class="cart-overlay" id="cart-overlay"></div>
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923001234567" target="_blank" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
